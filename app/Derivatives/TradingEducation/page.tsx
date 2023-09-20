@@ -79,11 +79,16 @@ const TradingEducation = () => {
           />
         </Stack>
       </div>
+
       <div className="TardingEductaion-section-video-container">
-        <img
-          src="/Images/PlayButton.png"
-          className="TardingEductaion-section-video-paly-btn"
-        />
+        <iframe
+          className="TardingEductaion-section-video-container"
+          src="https://www.youtube.com/embed/p7HKvqRI_Bo?si=4Wg_HA1nX8L4NUGw"
+          title="YouTube video player"
+          frameBorder={0}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
       </div>
     </Stack>
   );
