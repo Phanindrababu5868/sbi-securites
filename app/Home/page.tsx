@@ -85,8 +85,8 @@ const posts = [
 const HomePage = () => {
   return (
     <>
-      <Services />
       <Carousel />
+      <Services />
       <TradingPlatform />
       <Testimonials cards={cards} />
       <Awards />
