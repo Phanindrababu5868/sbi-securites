@@ -117,11 +117,9 @@ const Services = () => {
             height: "300px",
           }}
         >
-          <img
-            src="/Images/PlayButtonCircled.png"
-            alt="Play"
-            className="home-playbtn-img"
-          />
+         <video width="640" height="360" controls>
+        <source src="https://youtu.be/0cfFB8d_n60?si=YbOKfp3HR4QUVMR7" type="video/mp4" />
+      </video>
         </div>
         <div className="home-video-details-container">
           <Typography
