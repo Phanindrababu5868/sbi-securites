@@ -110,17 +110,14 @@ const Services = () => {
         ))}
       </div>
       <div className="Home-page-video-bg-container">
-        <div
+        <iframe
           className="home-vidoe-img-container"
-          style={{
-            backgroundImage: 'url("/Images/HomeVideo.png")',
-            height: "300px",
-          }}
-        >
-         <video width="640" height="360" controls>
-        <source src="https://youtu.be/0cfFB8d_n60?si=YbOKfp3HR4QUVMR7" type="video/mp4" />
-      </video>
-        </div>
+          src="https://www.youtube.com/embed/0cfFB8d_n60?si=4Wg_HA1nX8L4NUGw"
+          title="YouTube video player"
+          frameBorder={0}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
         <div className="home-video-details-container">
           <Typography
             variant="h5"
