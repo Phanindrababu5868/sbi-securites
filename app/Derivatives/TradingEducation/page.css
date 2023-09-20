@@ -89,7 +89,6 @@
 .TardingEductaion-section-video-container {
   height: 360px;
   width: 70%;
-  background: url("/Images/Video.png"), lightgray 50% / cover no-repeat;
 
   border-radius: 16px;
   display: flex;
